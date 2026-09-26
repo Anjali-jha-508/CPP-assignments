@@ -3,7 +3,8 @@ using namespace std;
 
 int main() {     
     double num1, num2, num3;      // Taking input from the user  
-
+    cout << "---TO CHECK WHICH NUMBERS AMONG THE THREE IS THE GREATEST---" << endl;
+    
     cout << "Enter number 1: ";     
     cin >> num1;     
     cout << "Enter number 2: ";     
