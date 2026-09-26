@@ -36,7 +36,7 @@ void Rectangle::display() {
 }
 
 int main() {
-    cout << "To Create a Rectangle class with private" << endl << "data members and define member functions outside" << endl << "the class to calculate area and perimeter"
+    cout << "To Create a Rectangle class with private" << endl << "data members and define member functions outside" << endl << "the class to calculate area and perimeter";
     cout << "---RECTANGLE AREA AND PERIMETER CALCULATOR---" << endl;
         Rectangle r1;
         r1.getDimensions();
