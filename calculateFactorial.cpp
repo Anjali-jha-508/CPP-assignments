@@ -17,5 +17,4 @@ int main() {
     return 0;
 }
 
-//on executing got to know that this code shows accurate result only for numbers from 1 to 39.
-//from 40, the answer obtained becomes negative.
+//on executing got to know that this code shows accurate result only for some numbers because as numbers increase the factorial value also increases.
