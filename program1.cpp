@@ -40,7 +40,7 @@ public:
         cout << "----Student Details----" << endl;
         cout << "Roll No: " << rollno << endl;
 
-        cout << "Name: " << name << endl;
+        cout << "Name: " << name << " " << surname << endl;
         cout << "Marks of Subject 1: " << marks_sub1 << endl;
         cout << "Marks of Subject 2: " << marks_sub2 << endl;
         cout << "Marks of Subject 3: " << marks_sub3 << endl;
