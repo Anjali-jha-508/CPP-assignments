@@ -19,6 +19,12 @@ public:
 		salary = esalary;
 		bonus = ebonus;
 	}
+	Employee(cont Employee &obj){
+		id = obj.id;
+		name = obj.name;
+		salary = obj.salary;
+		bonus = obj.bonus;
+	}
 	void totalSalary() {
 		tSalary = salary + bonus;
 	}
@@ -39,5 +45,7 @@ int main() {
 	Employee e2(101, "Neha", 20000, 200);
 	e2.totalSalary();
 	e2.display();
+
+	Employee e3(e2);
 	return 0;
 }
